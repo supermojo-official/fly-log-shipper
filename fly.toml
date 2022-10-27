@@ -2,6 +2,9 @@
 
 app = "web6-log-shipper"
 
+[build]
+dockerfile = './Dockerfile'
+
 [metrics]
-  path = "/metrics"
-  port = 9598
+path = "/metrics"
+port = 9598
